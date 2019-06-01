@@ -1,0 +1,9 @@
+WeatherService
+retrieve daily information cities in the world
+
+Receive daily file, contains list of cities
+for each city, retrive weather info from API
+store results outputFolder
+city_ddmmyyyy.txt
+
+call API using cityId
