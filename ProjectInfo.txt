@@ -1,9 +1,13 @@
-WeatherService
-retrieve daily information cities in the world
+WeatherService - Retrieves daily information about cities in the world
 
 Receive daily file, contains list of cities
 for each city, retrive weather info from API
 store results outputFolder
 city_ddmmyyyy.txt
 
-call API using cityId
+1. call API using the following link
+POST    api/Weather?citiesFile=<InputFilePath>
+
+2. replace the following App Settings
+a. CitiesOutputFolder with OutputFolder name
+b. OpenWeatherApiKey with OpenWeatherMap API Key
